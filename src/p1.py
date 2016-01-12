@@ -1,8 +1,10 @@
 print "hello to Py..."
 
 def f1(flag):
+  print "in f1() ..."
   if flag:
     k1()
+    print "in if..."
   else:
     k2()
     print "in else"
@@ -11,7 +13,7 @@ def f1(flag):
 
 
 def k1():
-  print "in if..."
+  print "k1 is called in if..."
 
 def k2():
   print "k2 else called"
